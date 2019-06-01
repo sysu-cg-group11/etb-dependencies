@@ -1,2 +1,8 @@
-*
+!/assimp/
+!/freetype/
+!/glad/
+!/GLFW/
+!/GLM/
+!/imgui/
+!/include/
 !.gitignore
