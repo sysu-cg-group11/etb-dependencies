@@ -34,11 +34,11 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/Users/mig/Desktop/junior-spring/graphics/Enjoy-The-Beach/lib/libglfw.3.2.dylib"
+    "/Users/mig/Desktop/junior-spring/graphics/Enjoy-The-Beach/lib/libglfw.3.3.dylib"
     "/Users/mig/Desktop/junior-spring/graphics/Enjoy-The-Beach/lib/libglfw.3.dylib"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglfw.3.2.dylib"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglfw.3.3.dylib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libglfw.3.dylib"
       )
     if(EXISTS "${file}" AND

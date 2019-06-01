@@ -170,7 +170,7 @@ lib/libimgui.dylib: dependencies/imgui/CMakeFiles/imgui.dir/src/imgui_stdlib.cpp
 lib/libimgui.dylib: dependencies/imgui/CMakeFiles/imgui.dir/src/imgui_widgets.cpp.o
 lib/libimgui.dylib: dependencies/imgui/CMakeFiles/imgui.dir/build.make
 lib/libimgui.dylib: lib/libglad.dylib
-lib/libimgui.dylib: lib/libglfw.3.2.dylib
+lib/libimgui.dylib: lib/libglfw.3.3.dylib
 lib/libimgui.dylib: dependencies/imgui/CMakeFiles/imgui.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mig/Desktop/junior-spring/graphics/Enjoy-The-Beach/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library ../../lib/libimgui.dylib"
 	cd /Users/mig/Desktop/junior-spring/graphics/Enjoy-The-Beach/dependencies/imgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui.dir/link.txt --verbose=$(VERBOSE)

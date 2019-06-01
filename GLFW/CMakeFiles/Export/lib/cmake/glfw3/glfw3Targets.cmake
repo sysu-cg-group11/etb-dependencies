@@ -55,7 +55,7 @@ add_library(glfw SHARED IMPORTED)
 
 set_target_properties(glfw PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "GLFW_DLL"
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/usr/local/include"
 )
 
 # Load information for each installed configuration.
